@@ -2,7 +2,69 @@
 @tailwind components;
 @tailwind utilities;
 @layer base {
-    body {
+   /* body {
         @apply min-h-screen
-    }
+    }*/
+        <style>
+        html, body {
+            background-color: #fff;
+            color: #636b6f;
+            font-family: 'Nunito', sans-serif;
+            font-weight: 100;
+            height: 100vh;
+            margin: 0;
+        }
+
+        a {
+            color: #636b6f;
+            text-decoration: none;
+        }
+
+        a:hover, a:active {
+            color: #636b6f;
+        }
+
+        .full-height {
+            height: 100vh;
+        }
+
+        .flex-center {
+            align-items: center;
+            display: flex;
+            justify-content: center;
+        }
+
+        .position-ref {
+            position: relative;
+        }
+
+        .name {
+            border-right: 2px solid;
+            font-size: 26px;
+            padding: 0 15px 0 15px;
+            text-align: center;
+        }
+
+        .message {
+            padding: 10px;
+            margin-left: 5px;
+            font-size: 18px;
+            text-align: center;
+        }
+
+        .copyright {
+            position: fixed;
+            padding: 20px;
+            text-align: center;
+            font-size: 14px;
+            left: 0;
+            right: 0;
+            bottom: 0;
+        }
+
+        .copyright span + span:before {
+            content: "|";
+            margin: 0 1rem;
+        }
+    </style>
 }
