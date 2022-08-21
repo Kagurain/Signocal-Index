@@ -15,8 +15,9 @@ window.onload = function () {
 <template>
 	<footer>
 		<div class="fixed bottom-0 left-0 right-0 p-5 text-zinc-500 font-light text-sm flex flex-row justify-center items-center">
-			<span>
-				Copyright ©
+			<span class="hidden sm:block mr-1"> Copyright </span>
+			<span class="before:content-none">
+				©
 				{{ date }}
 				<a href="https://zzlz.gsxt.gov.cn/businessCheck/viewPdfImage?licence13=92350212MA8W1WFW01" target="_blank" rel="noopener noreferrer">厦门市同安区辞寒网络工作室</a>
 				版权所有
