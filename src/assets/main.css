@@ -2,7 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 @layer base {
-    body {
-        @apply min-h-screen
-    }
+	body {
+		@apply min-h-screen;
+	}
+}
+
+@layer components {
+	footer span {
+		@apply before:content-["|"] before:mx-2 first:before:content-none;
+	}
 }
