@@ -3,6 +3,12 @@ import { ref } from 'vue';
 
 const date = ref();
 date.value = new Date().getFullYear();
+
+window.onload = function(){ 
+ document.oncontextmenu = function (){ 
+ return false; 
+ } 
+ }
 </script>
 
 <template>
