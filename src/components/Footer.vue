@@ -18,7 +18,7 @@ window.onload = function(){
                 Copyright © {{ date }}
                 <a class="hover:underline hover:underline-offset-1" href="https://zzlz.gsxt.gov.cn/businessCheck/viewPdfImage?licence13=92350212MA8W1WFW01" target="_blank">厦门市同安区辞寒网络工作室</a>
                 版权所有
-            </span>
+            </span><span><i class="social fa fa-github"><a href="https://github.com/Kagurain/Signocal-Index" target="_blank"></a></i></span>
         </div>
     </footer>
 </template>
