@@ -18,7 +18,7 @@ window.onload = function () {
 			<span>
 				Copyright ©
 				{{ date }}
-				<a class="hover:underline hover:underline-offset-1" href="https://zzlz.gsxt.gov.cn/businessCheck/viewPdfImage?licence13=92350212MA8W1WFW01" target="_blank" rel="noopener noreferrer">厦门市同安区辞寒网络工作室</a>
+				<a href="https://zzlz.gsxt.gov.cn/businessCheck/viewPdfImage?licence13=92350212MA8W1WFW01" target="_blank" rel="noopener noreferrer">厦门市同安区辞寒网络工作室</a>
 				版权所有
 			</span>
 			<span class="flex justify-center items-center">
