@@ -22,7 +22,7 @@ window.onload = function () {
 				版权所有
 			</span>
 			<span class="flex justify-center items-center">
-				<a href="https://github.com/Kagurain/Signocal-Index" target="_blank" rel="noopener noreferrer">
+				<a class="text-slate-400 hover:text-zinc-700 transition-all duration-300" href="https://github.com/Kagurain/Signocal-Index" target="_blank" rel="noopener noreferrer">
 					<Github />
 				</a>
 			</span>
